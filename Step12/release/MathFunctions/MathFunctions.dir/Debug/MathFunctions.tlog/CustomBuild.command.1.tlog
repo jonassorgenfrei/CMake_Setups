@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\DEVELOPMENT\CMAKE_SETUPS\STEP12\MATHFUNCTIONS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Documents/Development/CMake_Setups/Step12 -BD:/Documents/Development/CMake_Setups/Step12/release --check-stamp-file D:/Documents/Development/CMake_Setups/Step12/release/MathFunctions/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

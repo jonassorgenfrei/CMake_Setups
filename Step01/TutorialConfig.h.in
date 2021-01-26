@@ -1,0 +1,6 @@
+// the configured options and settings for Tutorial
+// the values starting inbetween @ sign will be replaced 
+// by the cmake file accordingly to the variable
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
+
